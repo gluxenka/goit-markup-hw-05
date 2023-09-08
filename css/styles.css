@@ -603,7 +603,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.review-form-field-label {
+.feedback-form-field-label {
   display: block;
   color: #8e8f99;
   font-size: 12px;
@@ -613,14 +613,14 @@ img {
   margin-bottom: 4px;
   line-height: 1.17;
 }
-.review-form-field-wrapper {
+.feedback-form-field-wrapper {
   margin-bottom: 8px;
 }
-.review-form-input-wrapper {
+.feedback-form-input-wrapper {
   position: relative;
 }
 
-.review-form-input {
+.feedback-form-input {
   width: 100%;
   height: 40px;
   border-radius: 4px;
@@ -633,12 +633,12 @@ img {
   outline: transparent;
 }
 
-.review-form-input:focus,
-.review-form-comment:focus {
+.feedback-form-input:focus,
+.feedback-form-comment:focus {
   border-color: #4d5ae5;
   outline: transparent;
 }
-.review-form-field-icon {
+.feedback-form-field-icon {
   position: absolute;
   top: 50%;
   left: 16px;
@@ -646,10 +646,10 @@ img {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.review-form-input:focus + .review-form-field-icon {
+.feedback-form-input:focus + .feedback-form-field-icon {
   fill: #4d5ae5;
 }
-.review-form-comment {
+.feedback-form-comment {
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -669,13 +669,13 @@ img {
 .comment-form-field {
   margin-bottom: 16px;
 }
-.review-form-comment::placeholder {
+.feedback-form-comment::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
-.review-form-checkbox-wrapper {
+.feedback-form-checkbox-wrapper {
   margin-bottom: 24px;
 }
-.review-form-checkbox-label {
+.feedback-form-checkbox-label {
   color: #8e8f99;
   font-size: 12px;
   font-style: normal;
@@ -683,12 +683,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.48px;
 }
-.review-form-privacy-link {
+.feedback-form-privacy-link {
   color: #4d5ae5;
   font-size: 12px;
   text-decoration-line: underline;
 }
-.review-form-submit {
+.feedback-form-submit {
   display: block;
   margin: 0 auto;
   cursor: pointer;
@@ -703,18 +703,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.review-form-submit:hover,
-.review-form-submit:focus {
+.feedback-form-submit:hover,
+.feedback-form-submit:focus {
   background-color: #404bbf;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.review-form-own-checkbox {
+.feedback-form-own-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -728,16 +727,17 @@ img {
   fill: transparent;
 }
 
-.review-form-own-checkbox-icon {
+.feedback-form-own-checkbox-icon {
   fill: transparent;
 }
 
-.review-form-checkbox:checked
-  + .review-form-checkbox-label
-  .review-form-own-checkbox,
-.review-form-checkbox:checked
-  + .review-form-checkbox-label
-  .review-form-own-checkbox-icon {
+.feedback-form-checkbox:checked
+  + .feedback-form-checkbox-label
+  .feedback-form-own-checkbox,
+.feedback-form-checkbox:checked
+  + .feedback-form-checkbox-label
+  .feedback-form-own-checkbox-icon {
   background-color: #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
