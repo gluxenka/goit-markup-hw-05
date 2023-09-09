@@ -160,7 +160,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people_office.jpg);
+    url(../images/people_office.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -514,7 +514,6 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 }
 .subscribe-button:hover,
 .subscribe-button:focus {
